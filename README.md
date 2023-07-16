@@ -20,7 +20,7 @@ English:    is-5 your@0 own\0 is^3 wordlists<4 an^0
 
 ### Word lists:
 The wordlists that rndpp.pas uses while compiling are 'dlp.csv' for Dutch, 'blp.csv' for English in the following format:<br>
-one line beginning and ending with a single quote, each word separated by a semicolon. No CR or LF after this line!<br>
+one line beginning and ending with a single quote, each word separated by a semicolon. Do not put a CR or LF after this line.<br>
 See the examples.
 
 ### Sources:
