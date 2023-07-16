@@ -14,5 +14,6 @@ Another example: if one has a hardware random number generator connected to /dev
 `rndpp $(od -vAn -N2 -tu2 < /dev/ttyUSB0 | tr -d ' \n\r')`<br>
 
 ### Word lists
-One could use other wordlists 'dlp.csv' for Dutch, 'blp.csv' for English in the following format:<br>
-one line beginning and ending with a single quote, each word separated by a semicolon. No CR or LF after this line!
+The wordlists that rndpp.pas uses while compiling are 'dlp.csv' for Dutch, 'blp.csv' for English in the following format:<br>
+one line beginning and ending with a single quote, each word separated by a semicolon. No CR or LF after this line!<br>
+See the examples.
