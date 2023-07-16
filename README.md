@@ -7,11 +7,12 @@ Before compiling prepare the Dutch and English word lists first, see 'Word lists
 
 ### Random seed
 Run under Linux rndpp uses /dev/random to create a random seed which the Mersenne Twister algorithm uses to
-generate random numbers. Such is not available under Windows, therefore Rndpp also accepts a parameter which is the random seed.
-For example use the Powershell command 'rndpp %{Get-Random}' to generate a seed and feed it to rndpp as a parameter. If not using this parameter and if run under Windows the system time is used as a seed.
-
-Another example: if one has a hardware random number generator connected to /dev/ttyUSB0 one could use:<br>
+generate random numbers.<br>
+If one has a hardware random number generator connected to /dev/ttyUSB0 one could use:<br>
 `rndpp $(od -vAn -N2 -tu2 < /dev/ttyUSB0 | tr -d ' \n\r')`<br>
+
+Such is not available under Windows, therefore Rndpp also accepts a parameter which is the random seed.
+For example use the Powershell command 'rndpp %{Get-Random}' to generate a seed and feed it to rndpp as a parameter. If not using this parameter and if run under Windows the system time is used as a seed.
 
 ### Word lists
 The wordlists that rndpp.pas uses while compiling are 'dlp.csv' for Dutch, 'blp.csv' for English in the following format:<br>
