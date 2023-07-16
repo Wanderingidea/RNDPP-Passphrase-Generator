@@ -15,7 +15,7 @@ Such is not available under Windows, therefore Rndpp also accepts a parameter wh
 For example use the Powershell command 'rndpp %{Get-Random}' to generate a seed and feed it to rndpp as a parameter. If not using this parameter and if run under Windows the system time is used as a seed.<br>
 
 ### Output example:
-Nederlands: wordlists&1 create-1 your<0 example{4 own[1 own}8 
+Nederlands: wordlists&1 create-1 your<0 example{4 own[1 own}8<br> 
 English:    is-5 your@0 own\0 is^3 wordlists<4 an^0 
 
 ### Word lists:
