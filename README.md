@@ -6,7 +6,7 @@ The FreePascal source code compiles without any problems for Linux and Windows.<
 Before compiling prepare the Dutch and English word lists first, see 'Word lists'.
 
 ### Random seed
-Run under Linux rndpp uses /dev/random to create a random seed which the Mersenne Twister algorithm uses to
+Run under Linux, rndpp uses /dev/random to create a random seed which the Mersenne Twister algorithm uses to
 generate random numbers.<br>
 If one has a hardware random number generator connected to /dev/ttyUSB0 one could use:<br>
 `rndpp $(od -vAn -N2 -tu2 < /dev/ttyUSB0 | tr -d ' \n\r')`<br>
