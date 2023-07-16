@@ -20,6 +20,7 @@ one line beginning and ending with a single quote, each word separated by a semi
 See the examples.
 
 ### Sources:
+https://www.freepascal.org<br>
 https://github.com/Wanderingidea/ATtinyTRNG<br>
 https://github.com/Wanderingidea/NanoTRNG<br>
 https://github.com/Wanderingidea/ESPTRNG
